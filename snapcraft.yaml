@@ -1,6 +1,6 @@
 name: distrobuilder
 base: core18
-version: "1.0"
+version: "1.1"
 grade: stable
 summary: System container image builder for LXC and LXD
 description: |-
@@ -16,7 +16,7 @@ parts:
   distrobuilder:
     source: https://github.com/lxc/distrobuilder
     source-type: git
-    source-tag: distrobuilder-1.0
+    source-tag: distrobuilder-1.1
     build-packages:
       - gcc
     stage-packages:
