@@ -1,5 +1,5 @@
 name: distrobuilder
-base: core18
+base: core20
 version: git
 grade: devel
 summary: System container image builder for LXC and LXD
