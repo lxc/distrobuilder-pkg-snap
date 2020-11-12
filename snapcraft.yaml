@@ -24,4 +24,3 @@ parts:
       - rsync
       - squashfs-tools
     plugin: go
-    go-importpath: github.com/lxc/distrobuilder
