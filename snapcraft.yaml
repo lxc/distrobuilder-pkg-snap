@@ -1,5 +1,5 @@
 name: distrobuilder
-base: core20
+base: core18
 version: git
 grade: devel
 summary: System container image builder for LXC and LXD
@@ -24,3 +24,4 @@ parts:
       - rsync
       - squashfs-tools
     plugin: go
+    go-importpath: github.com/lxc/distrobuilder
