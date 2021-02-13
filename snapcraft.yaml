@@ -21,7 +21,9 @@ parts:
     stage-packages:
       - debootstrap
       - gpg
+      - libwin-hivex-perl
       - rsync
       - squashfs-tools
+      - wimtools
     plugin: go
     go-importpath: github.com/lxc/distrobuilder
