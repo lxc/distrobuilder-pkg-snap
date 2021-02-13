@@ -19,10 +19,5 @@ parts:
     source-tag: distrobuilder-1.2
     build-packages:
       - gcc
-    stage-packages:
-      - debootstrap
-      - gpg
-      - rsync
-      - squashfs-tools
     plugin: go
     go-importpath: github.com/lxc/distrobuilder
