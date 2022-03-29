@@ -18,5 +18,7 @@ parts:
     source-type: git
     build-packages:
       - gcc
+    build-snaps:
+      - go/1.18/stable
     plugin: go
     go-importpath: github.com/lxc/distrobuilder
