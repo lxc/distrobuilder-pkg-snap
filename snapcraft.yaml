@@ -19,5 +19,4 @@ parts:
     build-packages:
       - gcc
     plugin: go
-    go-channel: 1.18/stable
     go-importpath: github.com/lxc/distrobuilder
