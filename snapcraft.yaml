@@ -1,5 +1,5 @@
 name: distrobuilder
-base: core18
+base: core22
 version: git
 grade: devel
 summary: System container image builder for LXC and LXD
@@ -16,7 +16,10 @@ parts:
   distrobuilder:
     source: https://github.com/lxc/distrobuilder
     source-type: git
+    build-attributes:
+      - enable-patchelf
     build-packages:
       - gcc
+    build-snaps:
+      - go
     plugin: go
-    go-importpath: github.com/lxc/distrobuilder
