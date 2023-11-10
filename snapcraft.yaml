@@ -2,9 +2,9 @@ name: distrobuilder
 base: core22
 version: "3.0"
 grade: stable
-summary: System container and VM image builder for LXC and LXD
+summary: System container and VM image builder for LXC and Incus
 description: |-
-  Distrobuilder is a tool which lets you create container and VM images for LXC and LXD.
+  Distrobuilder is a tool which lets you create container and VM images for LXC and Incus.
 license: Apache-2.0
 confinement: classic
 
